@@ -35,7 +35,8 @@ This repository is the replication package of **"Out of Sight, Out of Mind: Bett
 
 Please install them first.
 ```
-unzip VulMaster-main.zip
+unzip VulMaster-main.zip (original)
+unzip VulMaster-main_mod.zip (new)
 cd VulMaster-main
 cd VulMaster-main
 conda create -n vulmaster python=3.8 
@@ -48,7 +49,8 @@ To replicate VulMaster, ensure that `c_dataset/` is in the root path of this pro
 
 Training:
 ```
-bash 0a_train.sh 
+bash 0a_train.sh (original)
+bash 0x_train_mod.sh (new)
 ```
 
 Testing:
